@@ -44,16 +44,21 @@ function buscarProduto(titulo) {
 			}
 		}
 	}
-}
 
-if(titulo.value == ""){
-	window.alert("Busca vazia!);" +
-}else if(nome == "LIVROS"  || nome == "LIVRO"){
-	window.alert("Produtos nessa categoria LIVROS: " + produtos[0].livros);
-}else if(nome == "FILMES"  || nome == "FILME"){
-	window.alert("Produtos nessa categoria FILMES: " + produtos[0].filmes);
-}else if(nome == "MUSICAS"  || nome == "MUSICA"){
-	window.alert("Produtos nessa categoria MUSICAS: " + produtos[0].musicas);
-}else if(nome == "GAMES"  || nome == "GAME"){
-	window.alert("Produtos nessa categoria GAMES: " + produtos[0].games);
+	if (titulo.value == "") {
+		window.alert("Busca vazia!");
+	} else if (nome == "LIVROS" || nome == "LIVRO") {
+		window.alert("Produtos nessa categoria LIVROS: " + produtos[0].livros);
+	} else if (nome == "FILMES" || nome == "FILME") {
+		window.alert("Produtos nessa categoria FILMES: " + produtos[0].filmes);
+	} else if (nome == "MUSICAS" || nome == "MUSICA") {
+		window
+				.alert("Produtos nessa categoria MUSICAS: "
+						+ produtos[0].musicas);
+	} else if (nome == "GAMES" || nome == "GAME") {
+		window.alert("Produtos nessa categoria GAMES: " + produtos[0].games);
+	} else if (enc == 0) {
+
+		window.alert("Produto não encontrado!");
+	}
 }

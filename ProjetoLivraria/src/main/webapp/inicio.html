@@ -23,9 +23,9 @@
 	<div class="container destaque">
 		<section class="busca">
 			<h2>Busca</h2>
-			<form>
-				<input type="search"> <input type="image"
-					src="imagens/busca.png">
+			<form onSubmit=" return buscarProduto(titulo)">
+				<input type="search" name="titulo">
+				 <input type="image" src="imagens/busca.png">
 			</form>
 		</section>
 		<section class="menu-departamentos">
@@ -62,6 +62,6 @@
 			</ul>
 		</div>
 	</footer>
-
+<script src="js/busca.js"></script>
 </body>
 </html>
