@@ -8,9 +8,11 @@
 </head>
 <body>
 
-<h2>Olá, meu nome é JSP. Qual é o seu?</h2>
+<h2>Olá, meu nome é JSP. Meu hobby é trabalhar. Qual é o seu nome e hobby?
+</h2>
 <form method="get">
-<input type="text" name="nome" size="25" >
+<input type="text" name="nome" size="25" ><br>
+<input type="text" name="hobby" size="25" >
 <p></p>
 <input type="submit" value="Enviar" >
 <input type="reset" value="Resetar">

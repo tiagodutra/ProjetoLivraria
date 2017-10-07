@@ -30,8 +30,7 @@ function buscarProduto(titulo) {
 
 		for (var v = 0; v < produtos[i].filmes.length; v++) {
 			if (produtos[i].livros[v] == nome) {
-				window.alert("Temos " + titulo.value
-						+ " em nosso estoque de filmes");
+				window.alert("Temos " + titulo.value + " em nosso estoque de filmes");
 				enc++;
 			}
 		}
